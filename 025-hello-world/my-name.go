@@ -11,6 +11,8 @@ func main() {
 		}
 	}
 	fmt.Println("More")
+
+	return 0;
 }
 
 func foo() {
