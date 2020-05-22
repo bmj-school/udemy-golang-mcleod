@@ -20,6 +20,7 @@ func (c CIRCLE) AREA() float32 {
 	return float32(2.0) * float32(3.14) * c.R
 }
 
+// A SHAPE
 type SHAPE interface {
 	AREA() float32
 }
