@@ -28,7 +28,6 @@ func main() {
 
 		}()
 	}
-	fmt.Println("Counter:", counter)
-
 	wg.Wait()
+	fmt.Println("Counter:", counter)
 }
